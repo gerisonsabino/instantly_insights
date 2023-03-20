@@ -1,6 +1,9 @@
 AddPrefabPostInit("world", function(world)    
-	world:ListenForEvent("playeractivated", function(world, player)        
-		if player == GLOBAL.ThePlayer and player.components.skilltreeupdater and player.prefab == "wilson" then
+	world:ListenForEvent("playeractivated", function(world, player)
+		if player == GLOBAL.ThePlayer and 
+			player.prefab == "wilson" and
+			player.components.skilltreeupdater
+		then
 			GLOBAL.TheGenericKV:SetKV("fuelweaver_killed", "1")
 			player.components.skilltreeupdater:AddSkillXP(160)
 		end    

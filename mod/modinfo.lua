@@ -2,7 +2,7 @@ name = "Instantly Insights"
 description = "Apply the mod, join a server as Wilson and instantly receive all 15 Insight Points and also mark Ancient Fuelweaver as defeated to unlock the Affinity Path.\n\nYou only need to apply once."
 author = "Geeris"
 
-version = "1.0.0"
+version = "1.0.2"
 forumthread = ""
 api_version = 10
 

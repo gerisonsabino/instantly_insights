@@ -1,8 +1,8 @@
 name = "Instantly Insights"
-description = "Apply the mod, join a server as Wilson and instantly receive all 15 Insight Points and also mark Ancient Fuelweaver as defeated to unlock the Affinity Path.\n\nYou only need to apply once."
+description = "Join a server as Wilson to instantly receive all 15 Insight Points and set the Ancient Fuelweaver as defeated to unlock the Affinity path and get the Shadow Courtier skill."
 author = "Geeris"
 
-version = "1.0.2"
+version = "1.0.3"
 forumthread = ""
 api_version = 10
 

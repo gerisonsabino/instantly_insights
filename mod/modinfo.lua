@@ -1,8 +1,8 @@
 name = "Instantly Insights"
-description = "Join a server as Wilson to instantly receive all 15 Insight Points and set the Ancient Fuelweaver as defeated to unlock the Affinity path and get the Shadow Courtier skill."
+description = "Join a server as Wilson to instantly receive all 15 Insight Points and set the Ancient Fuelweaver and Celestial Champion as defeated to unlock all Affinity path."
 author = "Geeris"
 
-version = "1.0.3"
+version = "1.1.0"
 forumthread = ""
 api_version = 10
 

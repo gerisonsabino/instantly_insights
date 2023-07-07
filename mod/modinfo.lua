@@ -1,8 +1,8 @@
 name = "Instantly Insights"
-description = "Join a server as Wilson to instantly receive all 15 Insight Points and set the Ancient Fuelweaver and Celestial Champion as defeated to unlock all Affinity path."
+description = "Wilson, *Woodie, *Wolfgang and *Wormwood instantly receive all 15 Insight Points and unlock all Affinity path.\n\n*Currently in Don't Starve Together Public Beta."
 author = "Geeris"
 
-version = "1.1.0"
+version = "1.2.1"
 forumthread = ""
 api_version = 10
 

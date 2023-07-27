@@ -11,15 +11,9 @@ AddPrefabPostInit("world", function(world)
 		   player.components.skilltreeupdater and
 		   SKILLTREE_VALID_PREFABS[player.prefab]
 		then
-			CurrentRelease.PrintID()
-			
-			if player.prefab == "wilson" or 
-			   CurrentRelease.GreaterOrEqualTo("R30_ST_WOODWOLFWORM")
-			then
-				GLOBAL.TheGenericKV:SetKV("fuelweaver_killed", "1")
-				GLOBAL.TheGenericKV:SetKV("celestialchampion_killed", "1")
-				player.components.skilltreeupdater:AddSkillXP(160)
-			end
+			GLOBAL.TheGenericKV:SetKV("fuelweaver_killed", "1")
+			GLOBAL.TheGenericKV:SetKV("celestialchampion_killed", "1")
+			player.components.skilltreeupdater:AddSkillXP(160)
 		end   
 	end)
 end)

@@ -1,8 +1,8 @@
 name = "Instantly Insights"
-description = "Wilson, Woodie, Wolfgang and Wormwood instantly receive all 15 Insight Points and unlock all Affinity path."
+description = "Wilson, Woodie, Wolfgang, Wormwood, *Wigfrid and *Willow instantly receive all 15 Insight Points and unlock all Affinity path.\n\n*Currently in Don't Starve Together Public Beta."
 author = "Geeris"
 
-version = "1.2.2"
+version = "1.2.4"
 forumthread = ""
 api_version = 10
 

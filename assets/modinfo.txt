@@ -1,3 +1,1 @@
-*Characters with Skill Tree instantly receive all 15 Insight points and unlock the affinity path.
-
-*Wigfrid and Willow Currently in public beta for Don't Starve Together.
+Your character instantly receives all 15 Insight points and unlocks the affinity path when joining a world/server.

@@ -6,7 +6,14 @@ local function prefabs_table(skiltree_prefabs)
 	return prefabs
 end
 
-local SKILLTREE_PREFABS = prefabs_table({"wilson", "woodie", "wolfgang", "wormwood","wathgrithr", "willow"})
+local SKILLTREE_PREFABS = prefabs_table({
+	"wilson", 
+	"woodie", 
+	"wolfgang", 
+	"wormwood",
+	"wathgrithr", 
+	"willow"
+})
 
 AddPrefabPostInit("world", function(world)    
 	world:ListenForEvent("playeractivated", function(world, player)

@@ -1,5 +1,5 @@
 # Instantly Insights (Don't Starve Together Mod)
 
-Characters with Skill Tree instantly receive all 15 Insight points and unlock the affinity path.
+Your character instantly receives all 15 Insight points and unlocks the affinity path when joining a world/server.
 
-[Download - Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2948410295)
+[Download (Steam Workshop)](https://steamcommunity.com/sharedfiles/filedetails/?id=2948410295)

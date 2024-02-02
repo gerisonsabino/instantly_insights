@@ -1,8 +1,8 @@
 name = "Instantly Insights"
-description = "Characters with Skill Tree instantly receive all 15 Insight points and unlock the affinity path."
+description = "Your character instantly receives all 15 Insight points and unlocks the affinity path when joining a world/server."
 author = "Geeris"
 
-version = "1.2.5"
+version = "1.2.6"
 forumthread = ""
 api_version = 10
 

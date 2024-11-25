@@ -1,8 +1,8 @@
 name = "Instantly Insights"
-description = "Your character instantly receives all 15 Insight points and unlocks the affinity path when joining a world/server."
+description = "Your character* instantly receives all 15 Insight points and unlocks the affinity path when joining a world/server.\n\r*Walter, Wendy and Wortox currently in Don't Starve Together Public Beta."
 author = "Geeris"
 
-version = "1.2.8"
+version = "1.2.9"
 forumthread = ""
 api_version = 10
 

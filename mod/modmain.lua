@@ -20,11 +20,16 @@ local SKILLTREE_PREFABS = skilltree_prefabs_table({
 	"wortox"
 })
 
+local SKILLTREE_PREFABS_BETA = skilltree_prefabs_table({  
+	"wx78"
+})
+
 AddPrefabPostInit("world", function(world)    
 	world:ListenForEvent("playeractivated", function(world, player)
 		if player == GLOBAL.ThePlayer and 
 		   player.components.skilltreeupdater and
-		   SKILLTREE_PREFABS[player.prefab] 
+		   (SKILLTREE_PREFABS[player.prefab] or 
+		   (CurrentRelease.GreaterOrEqualTo("R41_ST_WX78") and SKILLTREE_PREFABS_BETA[player.prefab])) 
 		then
 			GLOBAL.TheGenericKV:SetKV("fuelweaver_killed", "1")
 			GLOBAL.TheGenericKV:SetKV("celestialchampion_killed", "1")
